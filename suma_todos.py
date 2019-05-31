@@ -1,9 +1,10 @@
-def suma_todos(limite):
+def suma_todo(limite, f):
     resultado = 0
     for i in range(0, limite+1):
-        resultado += i
+        resultado += f(i)
 
     return resultado
+
 
 def multiplica_todo(limite):
     resultado = 1
@@ -12,6 +13,3 @@ def multiplica_todo(limite):
 
     return resultado
 
-
-print("Suma todo los numeros: {}".format(suma_todos(100)))
-print("Multiplica todo: {}".format(multiplica_todo(10)))
