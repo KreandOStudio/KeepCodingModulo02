@@ -1,5 +1,4 @@
 import os
-import click
 
 BACKGROUND_BLACK = '\033[040m'
 mensajes = {
